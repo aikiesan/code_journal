@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Distribution / packaging
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a PyInstaller script; this is just a
+#  suggestion based on the default settings.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE / Editor specific
+*.swp
+*~
+.DS_Store
+
+# SQLite database file (optional, if you don't want to commit the DB itself)
+*.db-journal # SQLite temporary file
+# If you want to commit an initial empty DB, remove *.db from here
+
+# Other
+.mypy_cache/
